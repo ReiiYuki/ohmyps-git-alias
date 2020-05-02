@@ -7,8 +7,8 @@ I'm falling in love with git alias in ohmyzsh but I can't use it in Windows. Thi
 ## Setup
 
 1. Create or edit `profile.ps1` in `C:\Users\yourname\Documents` and your PowerShell location
-    Default PowerShell Location - `C:\Windows\System32\WindowsPowerShell\v1.0`
-    PowerShell7 Location - `C:\Program Files\PowerShell\7`
+    - Default PowerShell Location - `C:\Windows\System32\WindowsPowerShell\v1.0`
+    - PowerShell7 Location - `C:\Program Files\PowerShell\7`
 2. Add the following to `profile.ps1` in all location:
     ```
     function OhMyPSg{ & git $args }
